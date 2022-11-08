@@ -81,13 +81,13 @@
     right: 0px;
 
     &--primary {
-      background: #000000;
-      color: #ffffff;
+      background: $color-bg-black;
+      color: $color-font-secondary;
       text-transform: uppercase;
     }
 
     &--secondary {
-      background-color: #74b959;
+      background-color: $color-bg-green;
       align-items: flex-end;
       justify-content: flex-end;
     }
@@ -102,6 +102,6 @@
 
 .icon-arrow {
   font-size: 32px;
-  color: #ffffff;
+  color: $color-font-secondary;
   transform: rotate(45deg);
 }

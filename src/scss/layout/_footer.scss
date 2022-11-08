@@ -34,10 +34,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
-    color: #a6a6a6;
+    color: $color-font-terciary;
 
     &-link {
-      color: #a6a6a6;
+      color: $color-font-terciary;
 
       &:last-child {
         border-left: 1px solid #a6a6a6;
@@ -52,6 +52,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 60px;
+    padding-right: 100px;
 
     @media (min-width: $breakpoint-tablet) {
       margin-top: 0;

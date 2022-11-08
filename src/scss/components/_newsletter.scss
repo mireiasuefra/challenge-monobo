@@ -17,7 +17,7 @@
   }
 
   &__container-text {
-    background-color: #f7d345;
+    background-color: $color-bg-yellow;
     width: 80%;
     height: 408px;
     transform: translateY(-204px);
@@ -43,14 +43,14 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 63px;
-    background-color: #f7d345;
+    background-color: $color-bg-yellow;
     padding-left: 15px;
     padding-right: 200px;
     border: 1px solid #000;
 
     &::placeholder {
       text-transform: uppercase;
-      color: #000;
+      color: $color-font-primary;
     }
   }
 
@@ -58,7 +58,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 63px;
-    background-color: #f7d345;
+    background-color: $color-bg-yellow;
     padding-left: 24px;
     padding-right: 24px;
     border: 1px solid #000;
@@ -67,7 +67,7 @@
   }
 
   &__input-check {
-    background-color: #f7d345;
+    background-color: $color-bg-yellow;
     border: 1px solid #000;
     cursor: pointer;
     font-size: 12px;
