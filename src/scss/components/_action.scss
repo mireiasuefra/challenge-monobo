@@ -2,10 +2,14 @@
 
 .action {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-bottom: 1px solid #dadada;
   padding-bottom: 25px;
   padding-top: 25px;
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+  }
 
   &:last-child {
     border: none;
@@ -24,7 +28,11 @@
     font-size: 18px;
     font-weight: 350;
     line-height: 30px;
-    width: 70%;
+    width: 100%;
+
+    @media (min-width: $breakpoint-tablet) {
+      flex-direction: 70%;;
+    }
   }
 }
 

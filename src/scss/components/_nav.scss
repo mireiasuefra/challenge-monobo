@@ -5,8 +5,12 @@
   padding-bottom: 24px;
   padding-left: 30px;
   padding-right: 30px;
-  display: flex;
+  display: none;
   flex-direction: column;
+
+  @media (min-width: $breakpoint-tablet) {
+    display: flex;
+  }
 
   &__list {
     text-transform: uppercase;

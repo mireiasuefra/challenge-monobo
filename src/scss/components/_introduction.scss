@@ -1,17 +1,24 @@
 /* HEADER */
 
 .introduction {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   flex-direction: column;
   max-width: 1224px;
   margin-left: auto;
   margin-right: auto;
 
+  @media (min-width: $breakpoint-tablet) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   &__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    @media (min-width: $breakpoint-tablet) {
+      flex-direction: row;
+    }
 
     &-left {
       display: flex;
@@ -22,7 +29,9 @@
     }
 
     &-right {
-      padding-left: 100px;
+      @media (min-width: $breakpoint-tablet) {
+        padding-left: 100px;
+      }
     }
 
     &-image {

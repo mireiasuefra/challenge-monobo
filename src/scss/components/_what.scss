@@ -1,8 +1,6 @@
 /* HEADER */
 
 .what {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -10,8 +8,17 @@
   margin-left: auto;
   margin-right: auto;
 
+  @media (min-width: $breakpoint-tablet) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   &__container {
-    width: 80%;
+    width: 100%;
+
+    @media (min-width: $breakpoint-tablet) {
+      width: 80%;
+    }
   }
 
   &__title {

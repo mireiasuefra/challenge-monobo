@@ -21,7 +21,11 @@
     width: 80%;
     height: 408px;
     transform: translateY(-204px);
-    padding: 80px;
+    padding: 32px;
+
+    @media (min-width: $breakpoint-tablet) {
+      padding: 80px;
+    }
   }
 
   &__container-email {
@@ -33,10 +37,16 @@
   }
 
   &__text {
-    font-weight: 350;
-    font-size: 40px;
-    line-height: 50px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 20px;
     width: 70%;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-weight: 350;
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
 
   &__input-email {
@@ -45,8 +55,11 @@
     line-height: 63px;
     background-color: $color-bg-yellow;
     padding-left: 15px;
-    padding-right: 200px;
     border: 1px solid #000;
+
+    @media (min-width: $breakpoint-tablet) {
+      padding-right: 200px;
+    }
 
     &::placeholder {
       text-transform: uppercase;

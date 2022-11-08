@@ -2,3 +2,9 @@ body {
     font-family: $principal-font;
     color: $color-font-primary;
 }
+
+.main {
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+}
