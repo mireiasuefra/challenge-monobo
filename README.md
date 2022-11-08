@@ -9,6 +9,25 @@ Esta landing page se ha creado como solución al code challenge de MONOBO. Parti
 * [Gulp](https://gulpjs.com/) como sistema de build.
 * [Font Awesome](https://fontawesome.com/) para los iconos.
 
+## Getting Started ⚙️
+
+- Clonar el repositorio:
+  ```shell
+  git clone 
+  ```
+
+- Instalar dependencias:
+  ```shell
+  npm install
+  ```
+
+- Run:
+  ```shell
+  npm start
+  ```
+
+Esto ejecuta la aplicación en modo desarrollo. Abrir http://localhost:3000 para verlo en el navegador.
+
 ## Comments 📚
 
 Algunas decisiones tomadas a la hora de realizar la solución:
