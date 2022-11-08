@@ -38,6 +38,10 @@
     line-height: 35px;
     padding-bottom: 13px;
     padding-top: 13px;
+
+    &:last-child {
+      border: none;
+    }
   }
 
   &__list-span {

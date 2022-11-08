@@ -39,7 +39,7 @@
     &-link {
       color: #a6a6a6;
 
-      &--last {
+      &:last-child {
         border-left: 1px solid #a6a6a6;
         padding-left: 10px;
         margin-left: 10px;

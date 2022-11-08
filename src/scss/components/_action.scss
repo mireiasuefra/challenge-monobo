@@ -1,0 +1,29 @@
+/* HEADER */
+
+.action {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+  &:last-child {
+    border: none;
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 30px;
+    width: 70%;
+  }
+}
